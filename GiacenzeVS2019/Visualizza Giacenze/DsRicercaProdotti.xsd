@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsRicercaProdotti" targetNamespace="http://tempuri.org/DsRicercaProdotti.xsd" xmlns:mstns="http://tempuri.org/DsRicercaProdotti.xsd" xmlns="http://tempuri.org/DsRicercaProdotti.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsRicercaProdotti" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DsRicercaProdotti" msprop:Generator_UserDSName="DsRicercaProdotti">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListGenDettagli" msprop:Generator_TableClassName="ListGenDettagliDataTable" msprop:Generator_TableVarName="tableListGenDettagli" msprop:Generator_RowChangedName="ListGenDettagliRowChanged" msprop:Generator_TablePropName="ListGenDettagli" msprop:Generator_RowDeletingName="ListGenDettagliRowDeleting" msprop:Generator_RowChangingName="ListGenDettagliRowChanging" msprop:Generator_RowEvHandlerName="ListGenDettagliRowChangeEventHandler" msprop:Generator_RowDeletedName="ListGenDettagliRowDeleted" msprop:Generator_RowClassName="ListGenDettagliRow" msprop:Generator_UserTableName="ListGenDettagli" msprop:Generator_RowEvArgName="ListGenDettagliRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Progressivo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnProgressivo" msprop:Generator_ColumnPropNameInRow="Progressivo" msprop:Generator_ColumnPropNameInTable="ProgressivoColumn" msprop:Generator_UserColumnName="Progressivo" type="xs:int" />
+              <xs:element name="Descrizione" msprop:Generator_ColumnVarNameInTable="columnDescrizione" msprop:Generator_ColumnPropNameInRow="Descrizione" msprop:Generator_ColumnPropNameInTable="DescrizioneColumn" msprop:Generator_UserColumnName="Descrizione" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Note" msprop:Generator_ColumnVarNameInTable="columnNote" msprop:Generator_ColumnPropNameInRow="Note" msprop:Generator_ColumnPropNameInTable="NoteColumn" msprop:Generator_UserColumnName="Note" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CategoriaItaliano" msprop:Generator_ColumnVarNameInTable="columnCategoriaItaliano" msprop:Generator_ColumnPropNameInRow="CategoriaItaliano" msprop:Generator_ColumnPropNameInTable="CategoriaItalianoColumn" msprop:Generator_UserColumnName="CategoriaItaliano" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FlagUso" msprop:Generator_ColumnVarNameInTable="columnFlagUso" msprop:Generator_ColumnPropNameInRow="FlagUso" msprop:Generator_ColumnPropNameInTable="FlagUsoColumn" msprop:Generator_UserColumnName="FlagUso" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Annotazioni" msprop:Generator_ColumnVarNameInTable="columnAnnotazioni" msprop:Generator_ColumnPropNameInRow="Annotazioni" msprop:Generator_ColumnPropNameInTable="AnnotazioniColumn" msprop:Generator_UserColumnName="Annotazioni" type="xs:string" minOccurs="0" />
+              <xs:element name="UDM" msprop:Generator_ColumnVarNameInTable="columnUDM" msprop:Generator_ColumnPropNameInRow="UDM" msprop:Generator_ColumnPropNameInTable="UDMColumn" msprop:Generator_UserColumnName="UDM" type="xs:string" minOccurs="0" />
+              <xs:element name="Giacenza" msprop:Generator_ColumnVarNameInTable="columnGiacenza" msprop:Generator_ColumnPropNameInRow="Giacenza" msprop:Generator_ColumnPropNameInTable="GiacenzaColumn" msprop:Generator_UserColumnName="Giacenza" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Scadenze" msprop:Generator_ColumnVarNameInTable="columnScadenze" msprop:Generator_ColumnPropNameInRow="Scadenze" msprop:Generator_ColumnPropNameInTable="ScadenzeColumn" msprop:Generator_UserColumnName="Scadenze" type="xs:string" minOccurs="0" />
+              <xs:element name="Packing" msprop:Generator_ColumnVarNameInTable="columnPacking" msprop:Generator_ColumnPropNameInRow="Packing" msprop:Generator_ColumnPropNameInTable="PackingColumn" msprop:Generator_UserColumnName="Packing" type="xs:string" minOccurs="0" />
+              <xs:element name="Famiglia" msprop:Generator_ColumnVarNameInTable="columnFamiglia" msprop:Generator_ColumnPropNameInRow="Famiglia" msprop:Generator_ColumnPropNameInTable="FamigliaColumn" msprop:Generator_UserColumnName="Famiglia" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ListGenDettagli" />
+      <xs:field xpath="mstns:Progressivo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

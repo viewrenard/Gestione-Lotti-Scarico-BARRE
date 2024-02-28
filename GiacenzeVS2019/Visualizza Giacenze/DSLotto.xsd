@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSLotto" targetNamespace="http://tempuri.org/DSLotto.xsd" xmlns:mstns="http://tempuri.org/DSLotto.xsd" xmlns="http://tempuri.org/DSLotto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSLotto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSLotto" msprop:Generator_DataSetName="DSLotto">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TabellaLotti" msprop:Generator_TableClassName="TabellaLottiDataTable" msprop:Generator_TableVarName="tableTabellaLotti" msprop:Generator_TablePropName="TabellaLotti" msprop:Generator_RowDeletingName="TabellaLottiRowDeleting" msprop:Generator_RowChangingName="TabellaLottiRowChanging" msprop:Generator_RowEvHandlerName="TabellaLottiRowChangeEventHandler" msprop:Generator_RowDeletedName="TabellaLottiRowDeleted" msprop:Generator_UserTableName="TabellaLotti" msprop:Generator_RowChangedName="TabellaLottiRowChanged" msprop:Generator_RowEvArgName="TabellaLottiRowChangeEvent" msprop:Generator_RowClassName="TabellaLottiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Giacenza" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGiacenza" msprop:Generator_ColumnPropNameInRow="Giacenza" msprop:Generator_ColumnPropNameInTable="GiacenzaColumn" msprop:Generator_UserColumnName="Giacenza" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DataScadenza" msprop:Generator_ColumnVarNameInTable="columnDataScadenza" msprop:Generator_ColumnPropNameInRow="DataScadenza" msprop:Generator_ColumnPropNameInTable="DataScadenzaColumn" msprop:Generator_UserColumnName="DataScadenza" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Lotto" msprop:Generator_ColumnVarNameInTable="columnLotto" msprop:Generator_ColumnPropNameInRow="Lotto" msprop:Generator_ColumnPropNameInTable="LottoColumn" msprop:Generator_UserColumnName="Lotto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

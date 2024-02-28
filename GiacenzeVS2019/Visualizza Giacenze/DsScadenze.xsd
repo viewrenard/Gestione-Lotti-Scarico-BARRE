@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsScadenze" targetNamespace="http://tempuri.org/DsScadenze.xsd" xmlns:mstns="http://tempuri.org/DsScadenze.xsd" xmlns="http://tempuri.org/DsScadenze.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsScadenze" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsScadenze" msprop:Generator_UserDSName="DsScadenze">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TableScadenze" msprop:Generator_TableClassName="TableScadenzeDataTable" msprop:Generator_TableVarName="tableTableScadenze" msprop:Generator_RowChangedName="TableScadenzeRowChanged" msprop:Generator_TablePropName="TableScadenze" msprop:Generator_RowDeletingName="TableScadenzeRowDeleting" msprop:Generator_RowChangingName="TableScadenzeRowChanging" msprop:Generator_RowEvHandlerName="TableScadenzeRowChangeEventHandler" msprop:Generator_RowDeletedName="TableScadenzeRowDeleted" msprop:Generator_RowClassName="TableScadenzeRow" msprop:Generator_UserTableName="TableScadenze" msprop:Generator_RowEvArgName="TableScadenzeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Scadenza" msprop:Generator_ColumnVarNameInTable="columnScadenza" msprop:Generator_ColumnPropNameInRow="Scadenza" msprop:Generator_ColumnPropNameInTable="ScadenzaColumn" msprop:Generator_UserColumnName="Scadenza" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Quantita" msprop:Generator_ColumnVarNameInTable="columnQuantita" msprop:Generator_ColumnPropNameInRow="Quantita" msprop:Generator_ColumnPropNameInTable="QuantitaColumn" msprop:Generator_UserColumnName="Quantita" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Lotto" msprop:Generator_ColumnVarNameInTable="columnLotto" msprop:Generator_ColumnPropNameInRow="Lotto" msprop:Generator_ColumnPropNameInTable="LottoColumn" msprop:Generator_UserColumnName="Lotto" type="xs:string" minOccurs="0" />
+              <xs:element name="DataAcquisto" msprop:Generator_ColumnVarNameInTable="columnDataAcquisto" msprop:Generator_ColumnPropNameInRow="DataAcquisto" msprop:Generator_ColumnPropNameInTable="DataAcquistoColumn" msprop:Generator_UserColumnName="DataAcquisto" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IdOrdine" msprop:Generator_ColumnVarNameInTable="columnIdOrdine" msprop:Generator_ColumnPropNameInRow="IdOrdine" msprop:Generator_ColumnPropNameInTable="IdOrdineColumn" msprop:Generator_UserColumnName="IdOrdine" type="xs:int" minOccurs="0" />
+              <xs:element name="Prezzo" msprop:Generator_ColumnVarNameInTable="columnPrezzo" msprop:Generator_ColumnPropNameInRow="Prezzo" msprop:Generator_ColumnPropNameInTable="PrezzoColumn" msprop:Generator_UserColumnName="Prezzo" type="xs:string" minOccurs="0" />
+              <xs:element name="UDM" msprop:Generator_ColumnVarNameInTable="columnUDM" msprop:Generator_ColumnPropNameInRow="UDM" msprop:Generator_ColumnPropNameInTable="UDMColumn" msprop:Generator_UserColumnName="UDM" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

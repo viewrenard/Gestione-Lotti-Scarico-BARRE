@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsContainerOrdine" targetNamespace="http://tempuri.org/DsContainerOrdine.xsd" xmlns:mstns="http://tempuri.org/DsContainerOrdine.xsd" xmlns="http://tempuri.org/DsContainerOrdine.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsContainerOrdine" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DsContainerOrdine" msprop:Generator_DataSetName="DsContainerOrdine">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ContainersOrdine" msprop:Generator_TableClassName="ContainersOrdineDataTable" msprop:Generator_TableVarName="tableContainersOrdine" msprop:Generator_TablePropName="ContainersOrdine" msprop:Generator_RowDeletingName="ContainersOrdineRowDeleting" msprop:Generator_RowChangingName="ContainersOrdineRowChanging" msprop:Generator_RowEvHandlerName="ContainersOrdineRowChangeEventHandler" msprop:Generator_RowDeletedName="ContainersOrdineRowDeleted" msprop:Generator_UserTableName="ContainersOrdine" msprop:Generator_RowChangedName="ContainersOrdineRowChanged" msprop:Generator_RowEvArgName="ContainersOrdineRowChangeEvent" msprop:Generator_RowClassName="ContainersOrdineRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumContainer" msprop:Generator_ColumnVarNameInTable="columnNumContainer" msprop:Generator_ColumnPropNameInRow="NumContainer" msprop:Generator_ColumnPropNameInTable="NumContainerColumn" msprop:Generator_UserColumnName="NumContainer" type="xs:int" />
+              <xs:element name="Descrizione" msprop:Generator_ColumnVarNameInTable="columnDescrizione" msprop:Generator_ColumnPropNameInRow="Descrizione" msprop:Generator_ColumnPropNameInTable="DescrizioneColumn" msprop:Generator_UserColumnName="Descrizione" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

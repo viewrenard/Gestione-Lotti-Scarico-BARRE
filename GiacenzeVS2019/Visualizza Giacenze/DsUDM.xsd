@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsUDM" targetNamespace="http://tempuri.org/DsUDM.xsd" xmlns:mstns="http://tempuri.org/DsUDM.xsd" xmlns="http://tempuri.org/DsUDM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsUDM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsUDM" msprop:Generator_UserDSName="DsUDM">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UnitaMisure" msprop:Generator_TableClassName="UnitaMisureDataTable" msprop:Generator_TableVarName="tableUnitaMisure" msprop:Generator_TablePropName="UnitaMisure" msprop:Generator_RowDeletingName="UnitaMisureRowDeleting" msprop:Generator_RowChangingName="UnitaMisureRowChanging" msprop:Generator_RowEvHandlerName="UnitaMisureRowChangeEventHandler" msprop:Generator_RowDeletedName="UnitaMisureRowDeleted" msprop:Generator_UserTableName="UnitaMisure" msprop:Generator_RowChangedName="UnitaMisureRowChanged" msprop:Generator_RowEvArgName="UnitaMisureRowChangeEvent" msprop:Generator_RowClassName="UnitaMisureRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UDM" msprop:Generator_ColumnVarNameInTable="columnUDM" msprop:Generator_ColumnPropNameInRow="UDM" msprop:Generator_ColumnPropNameInTable="UDMColumn" msprop:Generator_UserColumnName="UDM" type="xs:string" minOccurs="0" />
+              <xs:element name="Rapporto" msprop:Generator_ColumnVarNameInTable="columnRapporto" msprop:Generator_ColumnPropNameInRow="Rapporto" msprop:Generator_ColumnPropNameInTable="RapportoColumn" msprop:Generator_UserColumnName="Rapporto" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantita" msprop:Generator_ColumnVarNameInTable="columnQuantita" msprop:Generator_ColumnPropNameInRow="Quantita" msprop:Generator_ColumnPropNameInTable="QuantitaColumn" msprop:Generator_UserColumnName="Quantita" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PrezzoAcquisto" msprop:Generator_ColumnVarNameInTable="columnPrezzoAcquisto" msprop:Generator_ColumnPropNameInRow="PrezzoAcquisto" msprop:Generator_ColumnPropNameInTable="PrezzoAcquistoColumn" msprop:Generator_UserColumnName="PrezzoAcquisto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Lotto" msprop:Generator_ColumnVarNameInTable="columnLotto" msprop:Generator_ColumnPropNameInRow="Lotto" msprop:Generator_ColumnPropNameInTable="LottoColumn" msprop:Generator_UserColumnName="Lotto" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
